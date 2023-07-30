@@ -81,12 +81,6 @@ target/
 profile_default/
 ipython_config.py
 
-# Файл .dockerignore
-venv
-.git
-.idea
-.vscode
-
 # pyenv
 .python-version
 
