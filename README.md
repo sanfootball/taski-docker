@@ -20,6 +20,7 @@
 - nginx
 - backend
 - frontend
+  
 В файле docker-compose описывается система из контейнеров. Docker-compose-production описывает уже непосредственно вариант с работой через GitHub Actions и деплоем на сервере.
 
 Реализован деплой на сервере после загрузки на GitHub при помощи GitHub Actions. Перед деплоем GitHub Actions делает следующее:
