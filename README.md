@@ -84,5 +84,5 @@ docker compose exec backend cp -r /app/collected_static/. /backend_static/static
 - 127.0.0.1:8000 Главная страница
 
 ## Автор
-Трубников Александр
+Трубников Александр  
 petrovskii1980@mail.ru
