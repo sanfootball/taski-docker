@@ -1,6 +1,6 @@
 # taski-docker
 
-### Домен: https://tplanner.ddns.net/
+### Домен: https://mykittyproject.ddns.net/
 
 ## Оглавление:
 - [Стек технологий.](#Стек-технологий)
@@ -43,8 +43,8 @@
 
 3. Установить и активировать виртуальное окружение: 
 ```
-python3.9 -m venv venv
-. venv/bin/activate
+python -m venv venv
+. venv/Script/activate
 ```
 В виртуальном окружении установить зависимости:
 ```
