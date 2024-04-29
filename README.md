@@ -85,4 +85,5 @@ docker compose exec backend cp -r /app/collected_static/. /backend_static/static
 
 ## Автор
 Трубников Александр  
-petrovskii1980@mail.ru
+E-mail: petrovskii1980@mail.ru  
+Telegram: https://t.me/sanfootball
