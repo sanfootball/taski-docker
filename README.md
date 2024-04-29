@@ -52,8 +52,33 @@ pip install -r requirements.txt
 ```
 
 4. Создать .env файл со сделующей информацией:                                                       
-POSTGRES_USER= логин
-POSTGRES_PASSWORD= пароль
-POSTGRES_DB= имя БД
-DB_HOST= название хоста
-DB_PORT=5432
+``` 
+ POSTGRES_USER= логин 
+ POSTGRES_PASSWORD= пароль 
+ POSTGRES_DB= имя БД 
+ DB_HOST= название хоста 
+ DB_PORT=5432
+``` 
+
+5 . Выполнить сборку контейнеров: 
+```
+docker-compose up -d --build
+ ```
+6 . Выполнить перенос: 
+```
+docker-compose exec backend python manage.py migrate
+```
+7 . Создай суперпользователя:
+``` 
+docker-compose exec backend python manage.py createsuperuser
+ ```
+8 . Собрать файлы статики: 
+``` 
+docker-compose exec backend python manage.py Collectstatic
+```
+9 . Скопируйте статические файлы в /backend_static/static/backend-контейнера: 
+``` 
+docker compose exec backend cp -r /app/collected_static/. /backend_static/static/
+```
+
+- 127.0.0.1:8000 Главная страница
