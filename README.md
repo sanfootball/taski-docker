@@ -1,6 +1,6 @@
 # taski-docker
 
-### Домен: https://tplanner.ddns.net/
+### Домен: https://mytaskiproject.ddns.net/
 
 ## Оглавление:
 - [Стек технологий.](#Стек-технологий)
@@ -39,12 +39,12 @@
 1. Скачать docker на сервер, если его нет. Инструкции: https://docs.docker.com/get-docker/
 
 2. Клонировать репозиторий с проектом на свой компьютер:
-   ```git clone git@github.com:gaifut/taski-docker.git```
+   ```git clone git@github.com:sanfootball/taski.git```
 
 3. Установить и активировать виртуальное окружение: 
 ```
-python3.9 -m venv venv
-. venv/bin/activate
+python -m venv venv
+. venv/Scripts/activate
 ```
 В виртуальном окружении установить зависимости:
 ```
